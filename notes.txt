@@ -1,0 +1,31 @@
+new gitignore for node
+- npx gitignore node
+    - Mac: Add DS Store (.DS_Store)
+    - Optional: (.vscode)
+
+new package.json
+- npm init -y
+    - -y bypasses all questions
+
+add script to package.json
+- “start”: "node index.js"
+
+Optional
+ - npx eslint --init
+    - problems
+    - commonJS
+    - none
+    - no (typescript)
+    - node
+    - JSON
+    - Yes
+
+npm install
+    - express
+    - shortid (generate new ID's)
+
+Look into HTTPie if you want to see your server response from the terminal
+
+nodemon
+    - npm install nodemon -D
+    - (-D) install as dev dependency
